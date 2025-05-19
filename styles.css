@@ -1,0 +1,94 @@
+/* Fondo con degradado suave */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #e0f7fa, #ffe0b2);
+}
+
+/* Encabezado con sombra y color institucional */
+header {
+    background-color: #003366; /* azul oscuro */
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Secciones con fondo blanco y sombra para profundidad */
+section {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1000px;
+    border-radius: 8px;
+
+    /* Sombra para dar profundidad */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Títulos en color institucional */
+h2 {
+    color: #003366; /* azul oscuro */
+}
+
+/* Estilo para botones */
+.btn {
+    display: inline-block;
+    background-color: #003366; /* azul institucional */
+    color: #fff;
+    padding: 12px 24px;
+    margin-top: 10px;
+
+    /* Bordes redondeados y sin subrayado en enlaces */
+    border-radius: 5px; 
+    text-decoration: none; 
+    font-weight: bold;
+
+    /* Transición suave para hover */
+    transition: background-color 0.3s ease; 
+}
+
+.btn:hover {
+    background-color:#0055aa; /* tono más claro al pasar el mouse */
+}
+
+/* Pie de página estilizado con iconos y fondo oscuro */
+footer {
+    background-color:#222; /* gris oscuro */
+    color:#fff; 
+    text-align:center; 
+    padding:15px 20px; 
+
+    /* Sombra sutil si quieres más profundidad (opcional) */
+    box-shadow:none; 
+}
+
+/* Iconos en el pie de página con margen y color institucional */
+footer i {
+    margin-right:8px; 
+    color:#003366; 
+}
